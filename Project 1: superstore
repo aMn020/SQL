@@ -47,4 +47,4 @@ where category="Kitchen_Supplies";
 select item_name, average_rating
 from superstore
 where category="Electronics"
-group by average_rating;
+order by average_rating desc;
